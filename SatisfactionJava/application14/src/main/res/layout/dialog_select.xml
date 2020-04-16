@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择您的收货或在其他栏输入"
+        android:textSize="18sp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radknow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="技能"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/radskill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="技能"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/radjyan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="经验"
+            android:textSize="18sp"/>
+    </RadioGroup>
+        <EditText
+            android:id="@+id/edtother"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="其他收获"
+            android:textSize="18sp"/>
+
+
+</LinearLayout>

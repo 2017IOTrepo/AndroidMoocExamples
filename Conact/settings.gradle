@@ -1,0 +1,2 @@
+rootProject.name='Conact'
+include ':app'

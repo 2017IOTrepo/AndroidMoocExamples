@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemhb"
+        android:title="山东">
+        <menu>
+            <item
+                android:id="@+id/wuhan"
+                android:title="济南"></item>
+            <item
+                android:id="@+id/ez"
+                android:title="烟台"></item>
+            <item
+                android:id="@+id/jm"
+                android:title="青岛"></item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/itemhn"
+        android:title="湖南">
+        <menu>
+            <item
+                android:id="@+id/cs"
+                android:title="长沙"></item>
+            <item
+                android:id="@+id/cd"
+                android:title="常德"></item>
+            <item
+                android:id="@+id/hy"
+                android:title="衡阳"></item>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/LayoutMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="价格"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        style="@style/LayoutMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$150以下" />
+
+            <RadioButton
+                android:id="@+id/rbp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$150-250" />
+
+            <RadioButton
+                android:id="@+id/rbp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$250-300" />
+
+            <RadioButton
+                android:id="@+id/rbp4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$300以下" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/s1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一星" />
+
+        <CheckBox
+            android:id="@+id/s2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二星" />
+
+        <CheckBox
+            android:id="@+id/s3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="三星" />
+
+        <CheckBox
+            android:id="@+id/s4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="四星" />
+
+        <CheckBox
+            android:id="@+id/s5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="五星" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btOk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/btcancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消" />
+    </LinearLayout>
+
+
+</LinearLayout>

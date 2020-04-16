@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#abdaf7"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/LayoutMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="城市"/>
+
+        <EditText
+            android:id="@+id/edtcity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="单击选择城市"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LayoutMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Txtname"
+            android:text="入住"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <EditText
+            style="@style/Txtname"
+            android:id="@+id/edtindate"
+            android:hint="选择日期"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/Txtname"
+            android:text="离店"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <EditText
+            style="@style/Txtname"
+            android:id="@+id/edtoutdate"
+            android:hint="选择日期"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LayoutMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="间数"/>
+
+        <EditText
+            style="@style/Txtname"
+            android:id="@+id/edtnum"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="-"
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:text="+"
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LayoutMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="预计到店时间"/>
+
+        <EditText
+            android:id="@+id/edttime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+    style="@style/LayoutMargin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_margin="8dp"
+        style="@style/Txtname"
+        android:hint="价格"
+        android:id="@+id/edtprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_margin="8dp"
+        style="@style/Txtname"
+        android:gravity="center"
+        android:text="查询"
+        android:id="@+id/edtnok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

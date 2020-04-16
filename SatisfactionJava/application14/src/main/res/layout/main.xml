@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="您的专业："/>
+
+        <EditText
+            android:id="@+id/edtspecial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="单击选择"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="您的性别："/>
+
+        <EditText
+            android:id="@+id/edtsex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="长按选择"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="您的毕业年份："/>
+
+        <EditText
+            android:id="@+id/edtyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="单击选择"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="您工作过的单位性质："/>
+
+        <EditText
+            android:id="@+id/edtdanwei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="单击选择"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="您对自己已落实的工作："/>
+
+        <EditText
+            android:id="@+id/edtwork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="单击选择"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="您认为在母校的最大收获："/>
+
+        <EditText
+            android:id="@+id/edtshouhuo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="单击选择"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="提交"
+            android:id="@+id/btok"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="退出"
+            android:id="@+id/btquit"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name='BannerJava'
+include ':app'
