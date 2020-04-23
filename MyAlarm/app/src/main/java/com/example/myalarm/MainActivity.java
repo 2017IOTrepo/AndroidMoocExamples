@@ -56,10 +56,6 @@ public class MainActivity extends AppCompatActivity {
                         tvInfo.setText("设定的定时闹钟时间：" + hourOfDay + ":" + minute);
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                             alarmManager.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), pendingIntent);
-                            Log.d("zhazha", String.valueOf(alarmManager.getNextAlarmClock().getTriggerTime()));
-
-//                            alarmManager.set(AlarmManager.RTC, SystemClock.elapsedRealtime() + 60 * 1000, pendingIntent);
-//                            alarmManager.setRepeating(AlarmManager.RTC, c.getTimeInMillis(), 1000 * 60 * 60 * 24, pendingIntent);
                         } else {
                             alarmManager.set(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), pendingIntent);
                         }
