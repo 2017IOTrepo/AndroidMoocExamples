@@ -1,0 +1,3 @@
+rootProject.name='SenderAndReciver'
+include ':sender'
+include ':reciver'
